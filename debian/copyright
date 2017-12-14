@@ -274,6 +274,7 @@ Files: debian/*
 Copyright: 2010 Ivan Wong <ivanwyc@gmail.com>
            2010-2013 Ondřej Surý <ondrej@debian.org>
            2013 Michael Stapelberg <stapelberg@debian.org>
+           2017 Scibian Project <legal@scibian.org>
 License: Go
 
 License: Go
