@@ -31,8 +31,8 @@
 //
 // See FIPS 197 for specification, and see Daemen and Rijmen's Rijndael submission
 // for implementation details.
-//	http://www.csrc.nist.gov/publications/fips/fips197/fips-197.pdf
-//	http://csrc.nist.gov/archive/aes/rijndael/Rijndael-ammended.pdf
+//	https://www.csrc.nist.gov/publications/fips/fips197/fips-197.pdf
+//	https://csrc.nist.gov/archive/aes/rijndael/Rijndael-ammended.pdf
 
 package aes
 
@@ -137,7 +137,7 @@ func subw(w uint32) uint32 {
 // Rotate
 func rotw(w uint32) uint32 { return w<<8 | w>>24 }
 
-// Key expansion algorithm.  See FIPS-197, Figure 11.
+// Key expansion algorithm. See FIPS-197, Figure 11.
 // Their rcon[i] is our powx[i-1] << 24.
 func expandKeyGo(key []byte, enc, dec []uint32) {
 	// Encryption key setup.
