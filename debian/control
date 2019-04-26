@@ -5,14 +5,10 @@
 Source: golang-1.11
 Section: devel
 Priority: optional
-Maintainer: Go Compiler Team <team+go-compiler@tracker.debian.org>
-Uploaders: Michael Stapelberg <stapelberg@debian.org>,
-           Paul Tagliamonte <paultag@debian.org>,
-           Tianon Gravi <tianon@debian.org>,
-           Michael Hudson-Doyle <mwhudson@debian.org>,
-           Dr. Tobias Quathamer <toddy@debian.org>
-Vcs-Browser: https://salsa.debian.org/go-team/compiler/golang/tree/golang-1.11
-Vcs-Git: https://salsa.debian.org/go-team/compiler/golang.git -b golang-1.11
+Maintainer: Scibian Project <packaging@scibian.org>
+Uploaders: M'hamed Bouaziz <mhamed-externe.bouaziz@edf.fr>,
+Vcs-Browser: https://github.com/scibian/golang
+Vcs-Git: https://github.com/scibian/golang.git
 Build-Depends: debhelper (>= 11),
                golang-any (>= 2:1.4~) | golang-go (>= 2:1.4~) | gccgo (>= 4:5~),
                netbase
